@@ -72,8 +72,9 @@ I build production AI/ML systems — from model training and evaluation pipeline
 ### GitHub at a glance
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=k-rajpurohit&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-rajpurohit&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
+  <a href="https://github.com/k-rajpurohit?tab=repositories"><img src="https://img.shields.io/github/followers/k-rajpurohit?style=for-the-badge&logo=github&label=Followers&color=24292e" /></a>
+  <a href="https://github.com/k-rajpurohit?tab=repositories"><img src="https://img.shields.io/github/stars/k-rajpurohit?style=for-the-badge&logo=github&label=Stars&color=24292e" /></a>
+  <img src="https://img.shields.io/badge/Languages-Python%20·%20TypeScript%20·%20SQL-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 <p align="center">
