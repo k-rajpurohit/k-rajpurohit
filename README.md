@@ -114,6 +114,12 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🚀 What I'm building
+
+**[AutomationOwl](https://automationowl.com)** — an AI growth platform for small businesses: lead discovery + email verification, AI cold email & AI calling, and a content engine that turns one product photo into a month of social content. Multi-tenant, queue-driven, and shipping to real users.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
