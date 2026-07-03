@@ -199,6 +199,12 @@ Based in India (IST, UTC+5:30) — but my pipelines work 24/7 so I don't have to
 
 ---
 
+### ⭐ Found something useful?
+
+If any project or idea here helped you, a star on the repo genuinely makes my day — it's how I know what to build more of.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
