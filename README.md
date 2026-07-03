@@ -82,7 +82,7 @@ I build production AI/ML systems - from model training and evaluation pipelines 
 ### 📊 GitHub analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=k-rajpurohit&show_icons=true&theme=github_dark&hide_border=true" alt="Krishna's GitHub stats" />
+  <img src="./github-metrics.svg" alt="GitHub stats including private and org work" />
 </p>
 
 ---
@@ -98,7 +98,7 @@ I build production AI/ML systems - from model training and evaluation pipelines 
 ### 🈯 Most-used languages
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=k-rajpurohit&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+  <img src="./github-langs.svg" alt="Most-used languages including private and org work" />
 </p>
 
 ---
