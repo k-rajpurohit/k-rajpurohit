@@ -16,6 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: k-rajpurohit
+          repositories_affiliations: owner, collaborator, organization_member
           filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
@@ -27,6 +28,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: k-rajpurohit
+          repositories_affiliations: owner, collaborator, organization_member
           filename: github-langs.svg
           base: ""
           plugin_languages: yes
@@ -36,3 +38,4 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_categories: programming
           plugin_languages_analysis_timeout: 15
+          commits_authoring: k-rajpurohit, krishnarajpurohit2014@gmail.com, BFMNINJA
