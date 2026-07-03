@@ -128,6 +128,15 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🧭 How I work
+
+- **Eval before vibes** — if a model change can't be measured, it didn't happen.
+- **Ship the boring version first** — reliability compounds faster than cleverness.
+- **Adversarial review** — the best code review actively tries to break the change.
+- **Own the whole loop** — data → model → product → feedback, no thrown-over walls.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
