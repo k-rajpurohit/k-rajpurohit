@@ -1,6 +1,10 @@
-# Renders accurate GitHub stats (private + org repos included, via
-# METRICS_TOKEN) into SVGs committed to this repo. The README embeds them, so
-# the profile never depends on rate-limited public widget hosts again.
+# Renders accurate GitHub stats into SVGs committed to this repo, so the
+# profile never depends on rate-limited public widget hosts.
+#   - stats: lowlighter/metrics (private + org contributions via METRICS_TOKEN)
+#   - languages: scripts/gen-langs.mjs — aggregates GitHub's per-repo language
+#     bytes across owned + org repos, skipping vendored-deps repos (>20MB),
+#     because metrics' indepth mode silently failed to analyze the private
+#     org repo.
 name: Profile metrics
 on:
   schedule:
@@ -24,20 +28,19 @@ jobs:
     needs: stats   # serialize so the two SVG commits never race
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: k-rajpurohit
-          repositories_affiliations: owner, collaborator, organization_member
-          filename: github-langs.svg
-          base: ""
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_indepth_custom: Automation-Owl-projects/SAAS-Social-Media
-          repositories: 200
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_categories: programming
-          plugin_languages_analysis_timeout: 15
-          commits_authoring: k-rajpurohit, krishnarajpurohit2014@gmail.com, BFMNINJA
+          ref: main
+      - name: Generate language card
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: node scripts/gen-langs.mjs
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-langs.svg
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update github-langs.svg"
+          git pull --rebase origin main
+          git push origin HEAD:main
