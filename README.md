@@ -145,6 +145,19 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🤝 Let's connect
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=k-rajpurohit&style=for-the-badge&color=6366f1" alt="Profile views" />
+</p>
+
+<p align="center">
+  <a href="mailto:krishnarajpurohit2014@gmail.com"><img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/krishna-rajpurohit-8125b9204/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
