@@ -98,6 +98,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🈯 Most-used languages
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-rajpurohit&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
