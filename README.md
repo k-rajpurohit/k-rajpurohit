@@ -185,6 +185,14 @@ I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructu
 
 ---
 
+### 📚 On my reading queue
+
+- *Designing Machine Learning Systems* — Chip Huyen
+- *AI Engineering* — Chip Huyen
+- Anthropic & OpenAI system cards — the best free courses in failure modes
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
