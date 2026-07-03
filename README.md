@@ -90,6 +90,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🔥 Contribution streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=k-rajpurohit&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
+</p>
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
