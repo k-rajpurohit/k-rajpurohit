@@ -106,6 +106,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 📈 Activity graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=k-rajpurohit&theme=github-compact&hide_border=true" alt="Contribution activity graph" />
+</p>
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
