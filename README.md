@@ -166,6 +166,12 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🌍 Open source & collaboration
+
+I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructure. If you're building something where an LLM has to be **right**, not just fluent — my favorite kind of problem — say hi.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
