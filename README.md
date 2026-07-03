@@ -10,7 +10,7 @@
 
 ### About me
 
-I build production AI/ML systems — from model training and evaluation pipelines to LLM-powered applications and the infrastructure that keeps them honest. I care most about systems that *actually ship* and *stay reliable* once they meet real users.
+I build production AI/ML systems - from model training and evaluation pipelines to LLM-powered applications and the infrastructure that keeps them honest. I care most about systems that *actually ship* and *stay reliable* once they meet real users.
 
 - 🔭 Currently working on **multi-agent LLM systems** for candidate–job matching, evidence-anchored writing assistants, and self-learning outcome loops
 - 🌱 Exploring **agentic workflows**, **RAG architectures**, and **eval-driven development** for LLM apps
@@ -76,16 +76,13 @@ I build production AI/ML systems — from model training and evaluation pipeline
   <img src="https://img.shields.io/badge/Languages-Python%20·%20TypeScript%20·%20SQL-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=k-rajpurohit&theme=algolia&no-frame=true&column=7&margin-w=8" />
-</p>
 
 ---
 
 ### 📊 GitHub analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=k-rajpurohit&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Krishna's GitHub stats" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=k-rajpurohit&show_icons=true&theme=github_dark&hide_border=true" alt="Krishna's GitHub stats" />
 </p>
 
 ---
@@ -101,7 +98,7 @@ I build production AI/ML systems — from model training and evaluation pipeline
 ### 🈯 Most-used languages
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-rajpurohit&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=k-rajpurohit&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
 </p>
 
 ---
@@ -109,37 +106,37 @@ I build production AI/ML systems — from model training and evaluation pipeline
 ### 📈 Activity graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=k-rajpurohit&theme=github-compact&hide_border=true" alt="Contribution activity graph" />
+  <img src="https://ghchart.rshah.org/6366f1/k-rajpurohit" alt="Contribution activity graph" />
 </p>
 
 ---
 
 ### 🚀 What I'm building
 
-**[AutomationOwl](https://automationowl.com)** — an AI growth platform for small businesses: lead discovery + email verification, AI cold email & AI calling, and a content engine that turns one product photo into a month of social content. Multi-tenant, queue-driven, and shipping to real users.
+**[AutomationOwl](https://automationowl.com)** - an AI growth platform for small businesses: lead discovery + email verification, AI cold email & AI calling, and a content engine that turns one product photo into a month of social content. Multi-tenant, queue-driven, and shipping to real users.
 
 ---
 
 ### 🧪 Recent engineering highlights
 
-- **Provenance-aware email send-gate** — an email's origin (scraped / found / guessed) decides how much verification it needs before a send is allowed. Bounce rates dropped to near zero.
-- **Durable outreach sequences** — BullMQ + Redis delayed jobs that survive redeploys, with stop-on-reply and race-safe cancellation flags.
-- **LLM copy pipeline with structural validation** — generated emails are machine-checked (format, banned phrases, length budgets) and retried before a human ever sees them.
+- **Provenance-aware email send-gate** - an email's origin (scraped / found / guessed) decides how much verification it needs before a send is allowed. Bounce rates dropped to near zero.
+- **Durable outreach sequences** - BullMQ + Redis delayed jobs that survive redeploys, with stop-on-reply and race-safe cancellation flags.
+- **LLM copy pipeline with structural validation** - generated emails are machine-checked (format, banned phrases, length budgets) and retried before a human ever sees them.
 
 ---
 
 ### 🧭 How I work
 
-- **Eval before vibes** — if a model change can't be measured, it didn't happen.
-- **Ship the boring version first** — reliability compounds faster than cleverness.
-- **Adversarial review** — the best code review actively tries to break the change.
-- **Own the whole loop** — data → model → product → feedback, no thrown-over walls.
+- **Eval before vibes** - if a model change can't be measured, it didn't happen.
+- **Ship the boring version first** - reliability compounds faster than cleverness.
+- **Adversarial review** - the best code review actively tries to break the change.
+- **Own the whole loop** - data → model → product → feedback, no thrown-over walls.
 
 ---
 
 ### 🌱 Beyond the code
 
-- 🎯 I treat prompt engineering like systems engineering — contracts, budgets, and failure modes.
+- 🎯 I treat prompt engineering like systems engineering - contracts, budgets, and failure modes.
 - 📊 Guilty pleasure: rewriting a working dashboard because the metric *label* was misleading.
 - 🤖 Firm believer that the best AI products feel like a great coworker, not a chatbot.
 
@@ -160,7 +157,7 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ### 🧠 Currently exploring
 
-- Multi-agent orchestration patterns — planner/worker/critic loops with deterministic control flow
+- Multi-agent orchestration patterns - planner/worker/critic loops with deterministic control flow
 - Evaluation harnesses for LLM applications (LLM-as-judge with adversarial verification)
 - Prompt-caching economics and latency budgets for production LLM pipelines
 
@@ -168,7 +165,7 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ### 🌍 Open source & collaboration
 
-I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructure. If you're building something where an LLM has to be **right**, not just fluent — my favorite kind of problem — say hi.
+I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructure. If you're building something where an LLM has to be **right**, not just fluent - my favorite kind of problem - say hi.
 
 ---
 
@@ -187,21 +184,21 @@ I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructu
 
 ### 📚 On my reading queue
 
-- *Designing Machine Learning Systems* — Chip Huyen
-- *AI Engineering* — Chip Huyen
-- Anthropic & OpenAI system cards — the best free courses in failure modes
+- *Designing Machine Learning Systems* - Chip Huyen
+- *AI Engineering* - Chip Huyen
+- Anthropic & OpenAI system cards - the best free courses in failure modes
 
 ---
 
 ### 🕐 Working hours
 
-Based in India (IST, UTC+5:30) — but my pipelines work 24/7 so I don't have to. Async-friendly; email gets the fastest response.
+Based in India (IST, UTC+5:30) - but my pipelines work 24/7 so I don't have to. Async-friendly; email gets the fastest response.
 
 ---
 
 ### ⭐ Found something useful?
 
-If any project or idea here helped you, a star on the repo genuinely makes my day — it's how I know what to build more of.
+If any project or idea here helped you, a star on the repo genuinely makes my day - it's how I know what to build more of.
 
 ---
 
