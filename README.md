@@ -137,6 +137,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🌱 Beyond the code
+
+- 🎯 I treat prompt engineering like systems engineering — contracts, budgets, and failure modes.
+- 📊 Guilty pleasure: rewriting a working dashboard because the metric *label* was misleading.
+- 🤖 Firm believer that the best AI products feel like a great coworker, not a chatbot.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
