@@ -158,6 +158,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🧠 Currently exploring
+
+- Multi-agent orchestration patterns — planner/worker/critic loops with deterministic control flow
+- Evaluation harnesses for LLM applications (LLM-as-judge with adversarial verification)
+- Prompt-caching economics and latency budgets for production LLM pipelines
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
