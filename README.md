@@ -120,6 +120,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 🧪 Recent engineering highlights
+
+- **Provenance-aware email send-gate** — an email's origin (scraped / found / guessed) decides how much verification it needs before a send is allowed. Bounce rates dropped to near zero.
+- **Durable outreach sequences** — BullMQ + Redis delayed jobs that survive redeploys, with stop-on-reply and race-safe cancellation flags.
+- **LLM copy pipeline with structural validation** — generated emails are machine-checked (format, banned phrases, length budgets) and retried before a human ever sees them.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
