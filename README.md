@@ -82,6 +82,14 @@ I build production AI/ML systems — from model training and evaluation pipeline
 
 ---
 
+### 📊 GitHub analytics
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=k-rajpurohit&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Krishna's GitHub stats" />
+</p>
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
