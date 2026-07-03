@@ -193,6 +193,12 @@ I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructu
 
 ---
 
+### 🕐 Working hours
+
+Based in India (IST, UTC+5:30) — but my pipelines work 24/7 so I don't have to. Async-friendly; email gets the fastest response.
+
+---
+
 <p align="center">
   <em>Always shipping. Always evaluating. Always curious.</em>
 </p>
