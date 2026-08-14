@@ -3,5 +3,5 @@
 <text x="24" y="27" class="title">Most used languages</text>
 <clipPath id="bar"><rect x="24" y="44" width="432" height="10" rx="5"/></clipPath>
 <g clip-path="url(#bar)"><rect x="24.0" y="44" width="341.1" height="10" fill="#f1e05a"/><rect x="365.1" y="44" width="88.2" height="10" fill="#3178c6"/><rect x="453.3" y="44" width="2.7" height="10" fill="#3572A5"/></g>
-<circle cx="29" cy="82" r="5" fill="#f1e05a"/><text x="42" y="86" class="lang">JavaScript</text><text x="224" y="86" text-anchor="end" class="pct">79.0%</text><circle cx="245" cy="82" r="5" fill="#3178c6"/><text x="258" y="86" class="lang">TypeScript</text><text x="440" y="86" text-anchor="end" class="pct">20.4%</text><circle cx="29" cy="106" r="5" fill="#3572A5"/><text x="42" y="110" class="lang">Python</text><text x="224" y="110" text-anchor="end" class="pct">0.6%</text>
+<circle cx="29" cy="82" r="5" fill="#f1e05a"/><text x="42" y="86" class="lang">JavaScript</text><text x="224" y="86" text-anchor="end" class="pct">78.9%</text><circle cx="245" cy="82" r="5" fill="#3178c6"/><text x="258" y="86" class="lang">TypeScript</text><text x="440" y="86" text-anchor="end" class="pct">20.4%</text><circle cx="29" cy="106" r="5" fill="#3572A5"/><text x="42" y="110" class="lang">Python</text><text x="224" y="110" text-anchor="end" class="pct">0.6%</text>
 </svg>
