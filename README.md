@@ -1,207 +1,82 @@
 <h1 align="center">Hi, I'm Krishna 👋</h1>
-<h3 align="center">AI / ML Engineer · turning data into systems that learn</h3>
+<h3 align="center">AI Engineer · LLM applications & AI agents · Ahmedabad, India</h3>
 
 <p align="center">
-  <a href="mailto:krishnarajpurohit2014@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/krishna-rajpurohit-8125b9204/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/krishna-rajpurohit-8125b9204/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:krishnarajpurohit2014@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://tryloomin.ca"><img src="https://img.shields.io/badge/Live-tryloomin.ca-111111?style=flat-square" alt="tryloomin.ca" /></a>
 </p>
 
----
+I build LLM applications that run in production: multi-agent pipelines, tool-calling agents, vision and image generation, and voice agents. I also build what keeps them reliable with real users: evaluations, guardrails, cost controls and tests.
 
-### About me
-
-I build production AI/ML systems - from model training and evaluation pipelines to LLM-powered applications and the infrastructure that keeps them honest. I care most about systems that *actually ship* and *stay reliable* once they meet real users.
-
-- 🔭 Currently working on **multi-agent LLM systems** for candidate–job matching, evidence-anchored writing assistants, and self-learning outcome loops
-- 🌱 Exploring **agentic workflows**, **RAG architectures**, and **eval-driven development** for LLM apps
-- 🤝 Open to collaborating on applied ML projects, open-source AI tooling, and research-engineering crossover work
-- 📫 Reach me at **krishnarajpurohit2014@gmail.com**
+Most of this work is private client and employer code, so the projects below link to the live products. I'm happy to walk through any of the architectures in an interview.
 
 ---
 
-### Tech stack
+### Selected work
+
+**LOOMIN: AI custom t-shirt studio** · [tryloomin.ca](https://tryloomin.ca) · Ailevate, 2026
+<br>Main engineer. FastAPI, PostgreSQL, React/TypeScript, Claude and OpenAI.
+- Chose the generation pipeline with a blind A/B test of two approaches. In the shipped flow, an LLM picks 3 of 24 curated styles, image models stream partial renders live, and customers refine designs by chat.
+- Built an LLM evaluation for the vision text-and-facts check on 28 labelled print sides. A tighter judge prompt and a model switch cut false alarms from 11 to 0, while still catching both real errors.
+- 15 output guardrails (no invented names, dates or numbers; no private details printed), locked in by golden regression runs.
+- Pixel-level print QA tool (NumPy, Pillow, SciPy): on 39 real redraws it caught all 7 changed print files, with no false alarms on 14 known-good ones.
+- Spend gate, per-run cost ledger, privacy-safe logs, Shopify checkout, and 220+ test files in CI.
+
+**AutomationOwl: AI agents platform for small businesses** · Elite Workforce, 2026
+- AI services on Llama 3.3 70B (Groq), Claude Haiku, Mistral and Gemini 2.5 Flash, running on BullMQ workers.
+- Voice AI agents on Vapi and Twilio: outbound sales calls, an inbound receptionist, and HR screening calls.
+- Multilingual business-card OCR bot (English, Hindi, Gujarati, Arabic) with a 3-stage vision/OCR fallback.
+
+**AI On Hunt: recruitment platform** · [aionhunt.com](https://aionhunt.com) · Elite Workforce, 2026
+- Explainable candidate-job match score, and job-description extraction that combines an LLM with a rule-based skill re-scan.
+
+**AI Scout: resume tailoring engine** · Elite Workforce, 2026
+- A truthfulness check that blocks invented experience, a Gemini → Llama 3.3 70B fallback chain, and prompt versioning with automatic revert.
+
+---
+
+### Tech I use
 
 **Languages**
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
 </p>
 
-**ML / Deep learning**
+**LLMs and GenAI**
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Llama_3_(Groq)-0467DF?style=flat-square" alt="Llama 3" />
+  <img src="https://img.shields.io/badge/Mistral-FA520F?style=flat-square" alt="Mistral" />
+  <img src="https://img.shields.io/badge/Vapi_voice_agents-222222?style=flat-square" alt="Vapi" />
 </p>
 
-**Data**
+**Backend and data**
 <p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL_+_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/BullMQ-E0234E?style=flat-square" alt="BullMQ" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" />
 </p>
 
-**Backend / infra**
+**DevOps and ML**
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
 </p>
 
-**MLOps / experimentation**
-<p>
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
----
-
-### GitHub at a glance
-
-<p align="center">
-  <a href="https://github.com/k-rajpurohit?tab=repositories"><img src="https://img.shields.io/github/followers/k-rajpurohit?style=for-the-badge&logo=github&label=Followers&color=24292e" /></a>
-  <a href="https://github.com/k-rajpurohit?tab=repositories"><img src="https://img.shields.io/github/stars/k-rajpurohit?style=for-the-badge&logo=github&label=Stars&color=24292e" /></a>
-  <img src="https://img.shields.io/badge/Languages-Python%20·%20TypeScript%20·%20SQL-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-
-
----
-
-### 📊 GitHub analytics
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub stats including private and org work" />
-</p>
-
----
-
-### 🔥 Contribution streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=k-rajpurohit&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
----
-
-### 🈯 Most-used languages
-
-<p align="center">
-  <img src="./github-langs.svg" alt="Most-used languages including private and org work" />
-</p>
-
----
-
-### 📈 Activity graph
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/6366f1/k-rajpurohit" alt="Contribution activity graph" />
-</p>
-
----
-
-### 🚀 What I'm building
-
-**[AutomationOwl](https://automationowl.com)** - an AI growth platform for small businesses: lead discovery + email verification, AI cold email & AI calling, and a content engine that turns one product photo into a month of social content. Multi-tenant, queue-driven, and shipping to real users.
-
----
-
-### 🧪 Recent engineering highlights
-
-- **Provenance-aware email send-gate** - an email's origin (scraped / found / guessed) decides how much verification it needs before a send is allowed. Bounce rates dropped to near zero.
-- **Durable outreach sequences** - BullMQ + Redis delayed jobs that survive redeploys, with stop-on-reply and race-safe cancellation flags.
-- **LLM copy pipeline with structural validation** - generated emails are machine-checked (format, banned phrases, length budgets) and retried before a human ever sees them.
-
----
-
-### 🧭 How I work
-
-- **Eval before vibes** - if a model change can't be measured, it didn't happen.
-- **Ship the boring version first** - reliability compounds faster than cleverness.
-- **Adversarial review** - the best code review actively tries to break the change.
-- **Own the whole loop** - data → model → product → feedback, no thrown-over walls.
-
----
-
-### 🌱 Beyond the code
-
-- 🎯 I treat prompt engineering like systems engineering - contracts, budgets, and failure modes.
-- 📊 Guilty pleasure: rewriting a working dashboard because the metric *label* was misleading.
-- 🤖 Firm believer that the best AI products feel like a great coworker, not a chatbot.
-
----
-
-### 🤝 Let's connect
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=k-rajpurohit&style=for-the-badge&color=6366f1" alt="Profile views" />
-</p>
-
-<p align="center">
-  <a href="mailto:krishnarajpurohit2014@gmail.com"><img src="https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/krishna-rajpurohit-8125b9204/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
----
-
-### 🧠 Currently exploring
-
-- Multi-agent orchestration patterns - planner/worker/critic loops with deterministic control flow
-- Evaluation harnesses for LLM applications (LLM-as-judge with adversarial verification)
-- Prompt-caching economics and latency budgets for production LLM pipelines
-
----
-
-### 🌍 Open source & collaboration
-
-I'm happy to pair on applied-ML tooling, agent frameworks, and eval infrastructure. If you're building something where an LLM has to be **right**, not just fluent - my favorite kind of problem - say hi.
-
----
-
-### 🛠️ Daily toolbox
-
-<p>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-</p>
-
----
-
-### 📚 On my reading queue
-
-- *Designing Machine Learning Systems* - Chip Huyen
-- *AI Engineering* - Chip Huyen
-- Anthropic & OpenAI system cards - the best free courses in failure modes
-
----
-
-### 🕐 Working hours
-
-Based in India (IST, UTC+5:30) - but my pipelines work 24/7 so I don't have to. Async-friendly; email gets the fastest response.
-
----
-
-### ⭐ Found something useful?
-
-If any project or idea here helped you, a star on the repo genuinely makes my day - it's how I know what to build more of.
-
----
-
-<p align="center">
-  <em>Always shipping. Always evaluating. Always curious.</em>
-</p>
+### Learning next
+RAG with retrieval evaluation (LangGraph, Ragas), PyTorch and Hugging Face fine-tuning, and deploying on AWS.
